@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace habilidades.shared.Entidades
 {
-    public class pedidos
+    public class pedido
     {
         public int Id { get; set; }
 
