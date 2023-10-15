@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace habilidades.shared.Entidades
 {
-    public class Owner
+    public class Especialista
     {
         public int Id { get; set; }
 
@@ -35,6 +35,14 @@ namespace habilidades.shared.Entidades
         [Display(Name = "Cell Phone")]
         [MaxLength(20, ErrorMessage = "The {0} field can not have more than {1} characters.")]
         public string CellPhone { get; set; }
+
+        [Display(Name = "Presentacion")]
+        [MaxLength(150, ErrorMessage = "The {0} field can not have more than {1} characters.")]
+        public string Presentacion { get; set; }
+
+        [Display(Name = "Precio")]
+        [MaxLength(20, ErrorMessage = "The {0} field can not have more than {1} characters.")]
+        public float Precio { get; set; }
 
         [MaxLength(100, ErrorMessage = "The {0} field can not have more than {1} characters.")]
 
